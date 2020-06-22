@@ -6,6 +6,7 @@ import { Provider } from './src/context/BlogContext';
 import ShowScreen from './src/screens/ShowScreen';
 import CreateScreen from './src/screens/CreateScreen';
 import EditScreen from './src/screens/EditScreen';
+//em caso de objetos com o mesmo nome usar import {objeto as objetox} from 'xxxx'
 
 const navigator = createStackNavigator(
   {
